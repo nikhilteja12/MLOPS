@@ -258,11 +258,12 @@ def fetch_weather_data(
     return df_weather
 
 
-# print(fetch_velib_data("2026/01/30", "2026/01/30")) # Works
-print(fetch_velib_data("2026/01/30")) # Works
-# print(fetch_velib_data("2026/01/30").columns) # Works
-# print(fetch_weather_data("2026-01-29", "2026-01-30"))  # Works
-# print(fetch_weather_data("2026-01-29")["time"])  # Works
+if __name__ == "__main__":
+    # Quick local tests (only run when module executed directly)
+    print(fetch_velib_data("2026/01/30"))  # Works
+    # print(fetch_velib_data("2026/01/30").columns) # Works
+    # print(fetch_weather_data("2026-01-29", "2026-01-30"))  # Works
+    # print(fetch_weather_data("2026-01-29")["time"])  # Works
 
 
 

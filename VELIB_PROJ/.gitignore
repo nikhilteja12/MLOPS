@@ -1,0 +1,26 @@
+.venv/
+artifacts/
+comptage_velo_donnees_compteurs.csv
+*.parquet
+*.pyc
+__pycache__/
+.DS_Store
+.vscode/
+.metadata/
+metadata/
+.env
+*.sqlite3
+*.egg-info/
+*.egg
+.Python
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
